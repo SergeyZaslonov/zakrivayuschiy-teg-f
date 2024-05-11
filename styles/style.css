@@ -92,7 +92,7 @@
   outline: none;
 }
 
-.theme-menu__button:focus-visible:after  {
+.theme-menu__button:focus-visible:after {
   width: 100%;
 }
 
