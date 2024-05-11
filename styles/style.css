@@ -308,7 +308,6 @@
 .button_dialog {
   text-transform: uppercase;
   background-color: transparent;
-  /* mix-blend-mode: difference; */
 }
 
 @media (width <= 375px) {
