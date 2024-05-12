@@ -27,7 +27,7 @@
   font-variation-settings: 'wght' var(--font-variation-normal);
 }
 
-.title-box {
+.header {
   display: flex;
   flex-direction: column;
   justify-items: flex-end;
@@ -40,7 +40,7 @@
 .title-logo {
   margin-block-start: clamp(7.5rem, 7.1699rem + 1.4085vw, 8.4375rem);
   font-weight: normal;
-  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .title-caption {
@@ -55,12 +55,15 @@
 }
 
 .theme-menu__list {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-inline-start: 20px;
   font-size: 14px;
+}
+
+.theme-menu__item {
+  position: relative;
 }
 
 .theme-menu__button {
