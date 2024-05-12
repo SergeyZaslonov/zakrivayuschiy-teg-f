@@ -54,7 +54,7 @@
 }
 
 .header__theme-menu {
-  margin-block: 24px;
+  margin-block: 22px;
 }
 
 .theme-menu__list {
@@ -76,6 +76,7 @@
   transition: opacity .3s ease;
   font-size: 14px;
   line-height: 1;
+  cursor: pointer; 
 }
 
 .theme-menu__button:disabled {
@@ -219,6 +220,7 @@
   padding: 12px;
   color: var(--button-color);
   transition: box-shadow .3s ease;
+  cursor: pointer;
 }
 
 .button__text {
@@ -258,6 +260,7 @@
   border: 2px solid transparent;
   background-color: transparent;
   transition: border 0.3s ease;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
