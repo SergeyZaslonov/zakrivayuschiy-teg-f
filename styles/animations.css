@@ -15,8 +15,9 @@
 .theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
+  top: 0;
   left: -14px;
-  animation: arrow-movement 0.5s ease-in-out infinite;
+  animation: arrow-movement 0.5s ease-in-out infinite alternate;  
 }
 
 .like-icon .main-body {
@@ -78,11 +79,11 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: heart-liking .3s ease-in .1s alternate;
+  animation: heart-liking .3s ease-in .1s 1 alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparking .3s ease-in .3s alternate;
+  animation: sparking .3s ease-in .3s 1 alternate;
 }
 
 @keyframes arrow-movement {
