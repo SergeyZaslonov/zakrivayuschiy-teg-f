@@ -169,10 +169,15 @@
   filter: grayscale(0.8) brightness(0.5);
 }
 
-
-.image__filter {
-  filter: grayscale(0.8) brightness(0.8);
+.image__filter__blur {
+  filter: blur(2px);
 }
+
+.image__filter__contrast {
+  filter: contrast(1.2) brightness(0.9);
+}
+
+
 
 .image__filter__hue-rotate {
   filter: hue-rotate(30deg);
@@ -184,11 +189,6 @@
 
 .image__filter__sepia {
   filter: sepia(0.8);
-}
-
-.image__filter__blur {
-  padding: 10px;
-  filter: blur(5px) drop-shadow(5px 5px var(--shadow-color)) drop-shadow(-5px -5px var(--shadow-color));
 }
 
 .image__filter__rotate-blur {
@@ -282,6 +282,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  margin-block-end: 53px;
 }
 
 .button__footer {
@@ -293,7 +294,7 @@
   margin-block-end: 50px;
   background-color: var(--background-color);
   inline-size: 340px;
-  block-size: 55px;
+  padding-block: 17px;
 }
 
 .dialog-insert-diskette {
@@ -323,6 +324,7 @@
 .dialog-text {
   font-size: 14px;
   line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .dialog-image {
@@ -334,6 +336,7 @@
 .button_dialog {
   text-transform: uppercase;
   background-color: transparent;
+  padding-block: 10px;
 }
 
 @media (width <= 375px) {
