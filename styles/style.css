@@ -178,22 +178,16 @@
   filter: contrast(1.2) brightness(0.9);
 }
 
-
-
-.image__filter__hue-rotate {
-  filter: hue-rotate(30deg);
+.image__filter__sepia {
+  filter: sepia(0.5);
 }
 
 .image__filter__invert {
-  filter: invert(0.8);
+  filter: brightness(1.3) invert(1);
 }
 
-.image__filter__sepia {
-  filter: sepia(0.8);
-}
-
-.image__filter__rotate-blur {
-  filter: hue-rotate(120deg) blur(3px);
+.image__filter__hue-rotate {
+  filter: hue-rotate(30deg);
 }
 
 .list-item-content {
