@@ -110,7 +110,7 @@
 .main-list {
   display: flex;
   flex-direction: column;
-  gap: 49px;
+  gap: 51px;
 }
 
 .main-list-item {
@@ -217,7 +217,6 @@
   appearance: none;
   position: relative;
   border: 2px solid var(--main-color);
-  padding: 12px;
   color: var(--button-color);
   transition: box-shadow .3s ease;
   cursor: pointer;
@@ -287,19 +286,18 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
+  margin-block: 50px;
   background-color: var(--background-color);
-  inline-size: 340px;
-  padding-block: 17px;
+  padding-inline: 20px;
+  padding-block: 16px;
 }
 
 .dialog-insert-diskette {
   padding: 0; 
   color: var(--main-color);
   background-color: var(--background-color);
-  inline-size: 353px;
-  block-size: 191px;
+  border: 2px solid var(--main-color);
+  max-inline-size: 357px;
 }
 
 .dialog-insert-diskette::backdrop {
@@ -307,8 +305,7 @@
 }
 
 .dialog-wrapper {
-  padding-inline: var(--dialog-margins);
-  padding-block-start: var(--dialog-margins);
+  padding: var(--dialog-margins);
   display: flex;
   flex-direction: column;
   gap: var(--dialog-margins);
@@ -317,7 +314,7 @@
 .dialog-content {
   display: grid;
   grid-template-columns: min-content 1fr;
-  gap: 12px;
+  gap: 20px;
 }
 
 .dialog-text {
@@ -345,8 +342,6 @@
 
   .button__footer {
     flex-direction: column;
-    inline-size: 306px;
-    block-size: 84px;
   }
 
   .button__image {
